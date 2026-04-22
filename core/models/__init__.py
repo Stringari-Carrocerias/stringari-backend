@@ -1,2 +1,3 @@
 from .user import User
-from .modeloCarroceria import ModeloCarroceria
+from .carroceria.modeloCarroceria import ModeloCarroceria
+from .carroceria.categoria import Categoria

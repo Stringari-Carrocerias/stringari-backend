@@ -1,27 +1,37 @@
 from django.contrib import admin
 from django.urls import include, path
+
+from core.views.carroceria.categoria import CategoriaViewSet
 from drf_spectacular.views import (
     SpectacularAPIView,
     SpectacularRedocView,
     SpectacularSwaggerView,
 )
+
 from rest_framework.routers import DefaultRouter
+
 from rest_framework_simplejwt.views import (
     TokenObtainPairView,
     TokenRefreshView,
     TokenVerifyView,
 )
 
-from core.views import UserRegistrationView, UserViewSet, ModeloCarroceriaViewSet
+from core.views import (
+    CategoriaViewSet, 
+    ModeloCarroceriaViewSet, 
+    UserRegistrationView, 
+    UserViewSet,
+)
+
 from django.conf import settings
 from django.conf.urls.static import static
-
 from uploader.router import router as uploader_router
 
 router = DefaultRouter()
 
 router.register(r'usuarios', UserViewSet, basename='usuarios')
 router.register(r'modelos carrocerias', ModeloCarroceriaViewSet, basename='modelos carrocerias')
+router.register(r'categorias', CategoriaViewSet, basename='categorias')
 
 urlpatterns = [
     path('admin/', admin.site.urls),
