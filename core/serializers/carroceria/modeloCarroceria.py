@@ -27,3 +27,4 @@ class ModeloCarroceriaSerializer(ModelSerializer):
     class Meta:
         model = ModeloCarroceria
         fields = '__all__';
+        depth = 1
