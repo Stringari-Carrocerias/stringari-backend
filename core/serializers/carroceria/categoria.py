@@ -4,4 +4,4 @@ from core.models.carroceria.categoria import Categoria
 class CategoriaSerializer(ModelSerializer):
     class Meta:
         model = Categoria
-        fields = '__all__'
+        fields = ['nome']
