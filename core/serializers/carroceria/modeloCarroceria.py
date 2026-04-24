@@ -6,7 +6,7 @@ from uploader.serializers import ImageSerializer
 
 
 class ModeloCarroceriaRetrieveSerializer(ModelSerializer):
-    capa = ImageSerializer(required=True)
+    imagem = ImageSerializer(required=True)
 
     class Meta:
         model = ModeloCarroceria
