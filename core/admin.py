@@ -6,9 +6,27 @@ from django.contrib import admin
 from django.contrib.auth.admin import UserAdmin as BaseUserAdmin
 from django.utils.translation import gettext_lazy as _
 
-from core import models
+from core.models import Categoria, ModeloCarroceria, User 
 
+@admin.register(ModeloCarroceria)
 
+class ModeloCarroceria(admin.ModelAdmin):
+    list_display=('nome', 'categoria', 'valor',)
+    search_fields=('nome', 'categoria',)
+    list_filter=('nome', 'categoria',)
+    ordering=('id','nome', 'categoria',)
+    list_per_page=10
+
+@admin.register(Categoria)
+
+class Categoria(admin.ModelAdmin):
+    list_display=('nome',)
+    search_fields=('nome',)
+    list_filter=('nome',)
+    ordering=('id', 'nome',)
+    list_per_page=10
+
+@admin.register(User)
 class UserAdmin(BaseUserAdmin):
     """Define the admin pages for users."""
 
@@ -51,6 +69,3 @@ class UserAdmin(BaseUserAdmin):
     )
 
 
-admin.site.register(models.User, UserAdmin)
-admin.site.register(models.ModeloCarroceria)
-admin.site.register(models.Categoria)
