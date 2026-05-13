@@ -14,8 +14,8 @@ class ModeloCarroceria(models.Model):
     categoria = models.ForeignKey(Categoria, related_name='carrocerias', on_delete=models.PROTECT, blank=True, null=True)
 
     class Meta:
-        verbose_name = 'Modelo Carroceria'
-        verbose_name_plural = 'Modelos Carrocerias'
+        verbose_name = 'ModeloCarroceria'
+        verbose_name_plural = 'ModelosCarrocerias'
 
     def __str__(self):
         return f'{self.nome}'
