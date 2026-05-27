@@ -12,7 +12,7 @@ from core.models import Categoria, ModeloCarroceria, User
 
 class ModeloCarroceria(admin.ModelAdmin):
     list_display=('nome', 'categoria', 'valor',)
-    search_fields=('nome', 'categoria',)
+    search_fields=('nome', 'categoria__nome',)
     list_filter=('nome', 'categoria',)
     ordering=('id','nome', 'categoria',)
     list_per_page=10
