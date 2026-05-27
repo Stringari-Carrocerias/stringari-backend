@@ -11,7 +11,7 @@ class ModeloCarroceria(models.Model):
     descricao = models.CharField(max_length=255, null = True, blank = True)
     descricaoCurta = models.CharField(max_length=100, null = True, blank = True)
     imagem = models.ForeignKey(Image, related_name='+', on_delete=models.PROTECT, default=None)
-    categoria = models.ForeignKey(Categoria, related_name='carrocerias', on_delete=models.PROTECT, blank=True, null=True)
+    categoria = models.ForeignKey(Categoria, related_name='carroceria', on_delete=models.PROTECT, blank=True, null=True)
 
     class Meta:
         verbose_name = 'ModeloCarroceria'
