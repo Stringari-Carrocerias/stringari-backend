@@ -12,4 +12,4 @@ class ModeloCarroceriaViewSet(ModelViewSet):
     # Código para filtros
 
     filter_backends = [DjangoFilterBackend]
-    filterset_fields = ['categoria__nome']
+    filterset_fields = ['categoria']
