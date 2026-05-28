@@ -30,7 +30,7 @@ from uploader.router import router as uploader_router
 router = DefaultRouter()
 
 router.register(r'usuarios', UserViewSet, basename='usuarios')
-router.register(r'modelos carrocerias', ModeloCarroceriaViewSet, basename='modelos carrocerias')
+router.register(r'modelosCarrocerias', ModeloCarroceriaViewSet, basename='modelosCarrocerias')
 router.register(r'categorias', CategoriaViewSet, basename='categorias')
 
 urlpatterns = [
