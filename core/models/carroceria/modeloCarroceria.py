@@ -3,15 +3,15 @@ from uploader.models import Image
 from .categoria import Categoria
 
 class ModeloCarroceria(models.Model):
-    nome = models.CharField(max_length=255, null = True, blank = True)
-    valor = models.DecimalField(max_digits=12, decimal_places = 2, null=True, blank=True)
-    comprimento = models.DecimalField(max_digits=4, decimal_places = 2, null=True, blank=True)
-    largura = models.DecimalField(max_digits=4, decimal_places = 2, null=True, blank=True)
-    altura = models.DecimalField(max_digits=4, decimal_places = 2, null=True, blank=True)
-    descricao = models.CharField(max_length=255, null = True, blank = True)
-    descricaoCurta = models.CharField(max_length=100, null = True, blank = True)
-    imagem = models.ForeignKey(Image, related_name='+', on_delete=models.PROTECT, default=None)
-    categoria = models.ForeignKey(Categoria, related_name='carroceria', on_delete=models.PROTECT, blank=True, null=True)
+    nome = models.CharField(max_length=255)
+    valor = models.DecimalField(max_digits=12, decimal_places = 2)
+    comprimento = models.DecimalField(max_digits=4, decimal_places = 2)
+    largura = models.DecimalField(max_digits=4, decimal_places = 2)
+    altura = models.DecimalField(max_digits=4, decimal_places = 2)
+    descricao = models.CharField(max_length=255)
+    descricaoCurta = models.CharField(max_length=100)
+    imagem = models.ForeignKey(Image, related_name='+', on_delete=models.PROTECT)
+    categoria = models.ForeignKey(Categoria, related_name='categoria', on_delete=models.PROTECT)
 
     class Meta:
         verbose_name = 'ModeloCarroceria'
