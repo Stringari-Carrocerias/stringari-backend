@@ -1,0 +1,1516 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2024-06-18T18:23:52.651Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "1",
+    "object_repr": "a@a.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Passage id\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2024-06-24T17:27:12.114Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "1",
+    "object_repr": "a@a.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2026-02-27T17:17:52.035Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "2",
+    "object_repr": "marcoandre@gmail.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"password\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2026-02-27T17:18:09.520Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "2",
+    "object_repr": "marcoandre@gmail.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Usu\\u00e1rio \\u00e9 da equipe\", \"Superuser status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2026-03-11T18:30:02.883Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "2",
+    "object_repr": "marcoandre@gmail.com",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2026-03-11T18:30:41.226Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "3",
+    "object_repr": "teste@teste.com",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2026-03-11T18:30:54.984Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "2",
+    "object_repr": "marcoandre@gmail.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"password\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2026-04-10T18:10:01.410Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": " - 0a6a94c8-5441-4e2d-a7be-e4b5b046d65b",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2026-04-10T18:10:09.000Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Graneleira",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2026-04-17T22:58:21.162Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": " - 0d762e5f-5689-4b72-863f-73a29cd37b44",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2026-04-17T22:58:22.988Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Carroceria Aberta de Madeira",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2026-04-17T23:00:36.278Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": " - 0d762e5f-5689-4b72-863f-73a29cd37b44",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"File\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2026-04-17T23:00:56.256Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": " - 0d762e5f-5689-4b72-863f-73a29cd37b44",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2026-04-17T23:01:06.940Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Carroceria Aberta de Madeira",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2026-04-17T23:03:03.548Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": " - 26246963-bdab-49c8-b10d-9a3debbe1abe",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2026-04-17T23:03:05.153Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Carroceria Boiadeira de Madeira",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2026-04-17T23:03:14.259Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Carroceria Boiadeira de Madeira",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2026-04-17T23:03:39.553Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Graneleira de Madeira",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Nome\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2026-04-17T23:03:45.839Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Aberta de Madeira",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Nome\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2026-04-17T23:03:50.852Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Boiadeira de Madeira",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Nome\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2026-04-17T23:04:35.907Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Graneleira de Madeira",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Valor\", \"Comprimento\", \"Largura\", \"Altura\", \"Descricao\", \"DescricaoCurta\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2026-04-17T23:05:35.852Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": " - 0a6a94c8-5441-4e2d-a7be-e4b5b046d65b",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"File\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2026-04-17T23:05:42.415Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Graneleira de Madeira",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2026-04-17T23:08:35.896Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": " - 7b92f566-5eb7-4523-aad6-b1fb123b8c6a",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2026-04-17T23:10:34.231Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Carroceria Carga Seca (Média)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2026-04-17T23:10:57.968Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Carroceria Carga Seca (Média)",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2026-04-17T23:17:51.130Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Aberta de Madeira",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Valor\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2026-04-17T23:19:47.676Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Graneleira de Madeira",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Valor\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2026-04-22T19:23:27.738Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Carga Seca (Média)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Nome\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2026-04-22T19:23:42.424Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Categoria object (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2026-04-22T19:23:50.154Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "Categoria object (2)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2026-04-22T19:23:55.605Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "Categoria object (3)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2026-05-13T18:45:55.671Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": " - 0a6a94c8-5441-4e2d-a7be-e4b5b046d65b",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"File\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2026-05-13T18:46:01.373Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": " - 0a6a94c8-5441-4e2d-a7be-e4b5b046d65b",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2026-05-13T18:46:13.527Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Carga Seca (Média)",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2026-05-13T18:50:37.832Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Carga Seca (Média)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Imagem\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2026-05-13T18:50:55.826Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Carga Seca (Média)",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2026-05-13T18:51:23.948Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": " - 26246963-bdab-49c8-b10d-9a3debbe1abe",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2026-05-13T18:51:36.309Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Boiadeira de Madeira",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Imagem\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2026-05-13T18:51:55.225Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": " - 0d762e5f-5689-4b72-863f-73a29cd37b44",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2026-05-13T18:52:02.782Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Aberta de Madeira",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Imagem\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2026-05-13T18:53:24.564Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Graneleira de Madeira",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Imagem\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2026-05-13T18:53:44.461Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": " - 7b92f566-5eb7-4523-aad6-b1fb123b8c6a",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2026-05-13T18:53:47.619Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Aberta de Madeira",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Imagem\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2026-05-13T19:09:21.186Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "5",
+    "object_repr": " - e990c81e-0427-4897-bff6-6ffebdcf67d3",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2026-05-13T19:09:24.388Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Aberta de Madeira",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Imagem\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2026-05-13T19:09:28.173Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Aberta de Madeira",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2026-06-19T18:55:51.339Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "6",
+    "object_repr": " - 0559f966-49a5-4976-bbc5-f4777d052be9",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2026-06-19T18:56:26.156Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "7",
+    "object_repr": " - 22b20063-6281-45b9-aba3-50b85685b4ba",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2026-06-19T18:56:27.520Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Graneleira de Madeira",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Imagem\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2026-06-19T19:12:01.807Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "8",
+    "object_repr": " - 431735b9-b79b-4345-a05f-483bb9d1236f",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 52,
+  "fields": {
+    "action_time": "2026-06-19T19:12:04.564Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Boiadeira de Madeira",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Imagem\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 53,
+  "fields": {
+    "action_time": "2026-06-19T19:12:25.355Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "9",
+    "object_repr": " - ae23cf1d-0ca5-43ef-ad24-4d8f8c92d12d",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 54,
+  "fields": {
+    "action_time": "2026-06-19T19:12:26.978Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Carga Seca (Média)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Imagem\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 55,
+  "fields": {
+    "action_time": "2026-06-19T19:13:07.438Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "10",
+    "object_repr": " - aecf05d1-fffc-40ff-beb4-ddea5e2783c2",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 56,
+  "fields": {
+    "action_time": "2026-06-19T19:13:11.486Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Graneleira de Madeira",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Imagem\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 57,
+  "fields": {
+    "action_time": "2026-06-19T19:13:38.258Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "11",
+    "object_repr": " - aa135361-32bd-465c-835e-020f0e182c12",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 58,
+  "fields": {
+    "action_time": "2026-06-19T19:13:40.167Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Aberta de Madeira",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Imagem\"]}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 4,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 4,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 4,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 4,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 5,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 5,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 5,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 5,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add Usuário",
+    "content_type": 6,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change Usuário",
+    "content_type": 6,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete Usuário",
+    "content_type": 6,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view Usuário",
+    "content_type": 6,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add modelo carroceria",
+    "content_type": 7,
+    "codename": "add_modelocarroceria"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change modelo carroceria",
+    "content_type": 7,
+    "codename": "change_modelocarroceria"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete modelo carroceria",
+    "content_type": 7,
+    "codename": "delete_modelocarroceria"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view modelo carroceria",
+    "content_type": 7,
+    "codename": "view_modelocarroceria"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add document",
+    "content_type": 8,
+    "codename": "add_document"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change document",
+    "content_type": 8,
+    "codename": "change_document"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete document",
+    "content_type": 8,
+    "codename": "delete_document"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view document",
+    "content_type": 8,
+    "codename": "view_document"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add image",
+    "content_type": 9,
+    "codename": "add_image"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change image",
+    "content_type": 9,
+    "codename": "change_image"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete image",
+    "content_type": 9,
+    "codename": "delete_image"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view image",
+    "content_type": 9,
+    "codename": "view_image"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add categoria",
+    "content_type": 10,
+    "codename": "add_categoria"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change categoria",
+    "content_type": 10,
+    "codename": "change_categoria"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete categoria",
+    "content_type": 10,
+    "codename": "delete_categoria"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view categoria",
+    "content_type": 10,
+    "codename": "view_categoria"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "core",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "core",
+    "model": "modelocarroceria"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "uploader",
+    "model": "document"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "uploader",
+    "model": "image"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "core",
+    "model": "categoria"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "1xz2jk109a7wry2eyg1kttazjpv0vauh",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQAP_C2RCgbGE9eu8bCAuLVA1NSnsy_t006UGvM5N5ixD3rYa98xrmLK5Ci8svo5ie3A6RH7HdF5mWtq0zySORp-1yWjK_bmf7N6ix12M7uGjcCKQGypZwAMbsgbRNRfmRC7L1DotDlQDBaGd0QU9cRjDGefH5AstTNww:1wNEaO:RUKp37sM-cHPlXaYqMHm7Mh1jfPb7wY36q5QuNOPNgg",
+    "expire_date": "2026-05-27T18:45:36.549Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "4l9wk4j53rm2umsmfi5gxuwn7xytm0bv",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQAP_C2RCgbGE9eu8bCAuLVA1NSnsy_t006UGvM5N5ixD3rYa98xrmLK5Ci8svo5ie3A6RH7HdF5mWtq0zySORp-1yWjK_bmf7N6ix12M7uGjcCKQGypZwAMbsgbRNRfmRC7L1DotDlQDBaGd0QU9cRjDGefH5AstTNww:1wDs5l:J8c9yeFO4oXQBmjZ2zAy7fnx1X_Bk5KIthRDqGVD1Vg",
+    "expire_date": "2026-05-01T22:55:17.338Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "60aibj2qccnugrjh11uyhrhmwzdui1oh",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGln-YoeSPmewdtdrHEC2lE-FuDtESgHtm5n3Egm2taZt4TlNWVyEFqffDYEe3HaQ79BuXVJv6zyh3BV50EWOPfPzerh_BxWW-q3JxiFYBs7O6ahwcMjW2-gJSqTI3tNZmwCY9WCoEFhDqILCwkVFpcX7A-4lOFg:1sLnSm:j0HQkjbNxWzfywH481e3iiy2qq08knrwB1ZLaagwRb0",
+    "expire_date": "2024-07-08T17:26:44.741Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "6copnkko6dzn0pc32yjhq7lih1dzc85z",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQAP_C2RCgbGE9eu8bCAuLVA1NSnsy_t006UGvM5N5ixD3rYa98xrmLK5Ci8svo5ie3A6RH7HdF5mWtq0zySORp-1yWjK_bmf7N6ix12M7uGjcCKQGypZwAMbsgbRNRfmRC7L1DotDlQDBaGd0QU9cRjDGefH5AstTNww:1waeN0:F6InssES-ecKGsWDwduV4jc0ylUTyfwpMPTo8z9_73k",
+    "expire_date": "2026-07-03T18:55:14.881Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "c1wpjs3qq236dfgzg1tgek3flzxvekq0",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGlkb29l1KOk5g7XrDw6gRIqTCnF3iJQC2jcz76UCb2sNW8tLGJM6q06dfjfh-MjTDtKdp9us4zytyyh6V_RBm77OKT8vh_t3ULnVb20zGc_DYMFAGYABe0E2gMW6DgEpoXEgHSETRSeJYubCsS9e2BOq9we2ujds:1vw1So:VL7e8gen38EJqcfDzqzbzUSmSSwD-mOzd56lfsVVh2E",
+    "expire_date": "2026-03-13T17:17:18.843Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "cpe6vh7zsh8mk70dctkiq3wk9dnvefus",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQAP_C2RCgbGE9eu8bCAuLVA1NSnsy_t006UGvM5N5ixD3rYa98xrmLK5Ci8svo5ie3A6RH7HdF5mWtq0zySORp-1yWjK_bmf7N6ix12M7uGjcCKQGypZwAMbsgbRNRfmRC7L1DotDlQDBaGd0QU9cRjDGefH5AstTNww:1vw1TM:3LFjwWkza_pDbf1AZUmJrftVpETUHFtJ-gvFlNWS6I8",
+    "expire_date": "2026-03-13T17:17:52.252Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "f15ytv323tzrh35aqv0ow3b3me5fo5br",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQAP_C2RCgbGE9eu8bCAuLVA1NSnsy_t006UGvM5N5ixD3rYa98xrmLK5Ci8svo5ie3A6RH7HdF5mWtq0zySORp-1yWjK_bmf7N6ix12M7uGjcCKQGypZwAMbsgbRNRfmRC7L1DotDlQDBaGd0QU9cRjDGefH5AstTNww:1wBFpU:LIcHfFdq64mSnnj0JO-avpalmR7Oeqt6bILBW77euTk",
+    "expire_date": "2026-04-24T17:39:40.058Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "fgigqqlre5mrpmmq300z385s69xcgdwn",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGln-YoeSPmewdtdrHEC2lE-FuDtESgHtm5n3Egm2taZt4TlNWVyEFqffDYEe3HaQ79BuXVJv6zyh3BV50EWOPfPzerh_BxWW-q3JxiFYBs7O6ahwcMjW2-gJSqTI3tNZmwCY9WCoEFhDqILCwkVFpcX7A-4lOFg:1sVx5W:in5DI8MWFfqHmDnlx0MmxosvWqf31MVXNHqDywmdngc",
+    "expire_date": "2024-08-05T17:44:42.461Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "kd26mwo8ptvnhwobqjf98k2jafx5h02p",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGln-YoeSPmewdtdrHEC2lE-FuDtESgHtm5n3Egm2taZt4TlNWVyEFqffDYEe3HaQ79BuXVJv6zyh3BV50EWOPfPzerh_BxWW-q3JxiFYBs7O6ahwcMjW2-gJSqTI3tNZmwCY9WCoEFhDqILCwkVFpcX7A-4lOFg:1siv9E:6pqbY5DtxpUL-kUHZUoEAbu9Bf9BwN77PXRJ8qRR36c",
+    "expire_date": "2024-09-10T12:18:08.259Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "yjwv42hyi55wpakgz1o8ls91ty7eqe1u",
+  "fields": {
+    "session_data": ".eJxVjDsOwjAQBe_iGln-YoeSPmewdtdrHEC2lE-FuDtESgHtm5n3Egm2taZt4TlNWVyEFqffDYEe3HaQ79BuXVJv6zyh3BV50EWOPfPzerh_BxWW-q3JxiFYBs7O6ahwcMjW2-gJSqTI3tNZmwCY9WCoEFhDqILCwkVFpcX7A-4lOFg:1sJdUV:rY8hd_2m2u3YGGz5LW3BFQGgHfshutei7gPRDpzv9kY",
+    "expire_date": "2024-07-02T18:23:35.702Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "yp2u83wx96pvpie9qpy79bnzz14thsun",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQAP_C2RCgbGE9eu8bCAuLVA1NSnsy_t006UGvM5N5ixD3rYa98xrmLK5Ci8svo5ie3A6RH7HdF5mWtq0zySORp-1yWjK_bmf7N6ix12M7uGjcCKQGypZwAMbsgbRNRfmRC7L1DotDlQDBaGd0QU9cRjDGefH5AstTNww:1w0OKd:oTfBYiEHAAaeGocamXBwWC45MMqeGVMCW14-PRhSh-0",
+    "expire_date": "2026-03-25T18:30:55.069Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 1,
+  "fields": {
+    "attachment_key": "0a6a94c8-5441-4e2d-a7be-e4b5b046d65b",
+    "public_id": "ceea4778-a9e7-4665-b1c9-738ac7dc59a2",
+    "file": "images/ceea4778-a9e7-4665-b1c9-738ac7dc59a2_ll4zGCL.jpg",
+    "description": "",
+    "uploaded_on": "2026-04-10T18:10:01.409Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 2,
+  "fields": {
+    "attachment_key": "0d762e5f-5689-4b72-863f-73a29cd37b44",
+    "public_id": "3f696def-c44c-4b83-84bc-d7d7442abec9",
+    "file": "images/3f696def-c44c-4b83-84bc-d7d7442abec9.webp",
+    "description": "",
+    "uploaded_on": "2026-04-17T22:58:21.161Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 3,
+  "fields": {
+    "attachment_key": "26246963-bdab-49c8-b10d-9a3debbe1abe",
+    "public_id": "b15f83ba-3848-45ca-8e92-83af0cfa1228",
+    "file": "images/b15f83ba-3848-45ca-8e92-83af0cfa1228.jpg",
+    "description": "",
+    "uploaded_on": "2026-04-17T23:03:03.548Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 4,
+  "fields": {
+    "attachment_key": "7b92f566-5eb7-4523-aad6-b1fb123b8c6a",
+    "public_id": "121912e5-4bbc-4415-8033-2602703cfd09",
+    "file": "images/121912e5-4bbc-4415-8033-2602703cfd09.jpg",
+    "description": "",
+    "uploaded_on": "2026-04-17T23:08:35.895Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 5,
+  "fields": {
+    "attachment_key": "e990c81e-0427-4897-bff6-6ffebdcf67d3",
+    "public_id": "aea2c4f4-a743-419a-a847-c8fceb43322c",
+    "file": "images/aea2c4f4-a743-419a-a847-c8fceb43322c.webp",
+    "description": "",
+    "uploaded_on": "2026-05-13T19:09:21.184Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 6,
+  "fields": {
+    "attachment_key": "0559f966-49a5-4976-bbc5-f4777d052be9",
+    "public_id": "d1522d39-4505-429c-952b-dbd6dc5f5794",
+    "file": "media/images/d1522d39-4505-429c-952b-dbd6dc5f5794_rr3itk",
+    "description": "",
+    "uploaded_on": "2026-06-19T18:55:51.338Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 7,
+  "fields": {
+    "attachment_key": "22b20063-6281-45b9-aba3-50b85685b4ba",
+    "public_id": "aa3e2720-57dc-4f8c-adda-41fbe1704dce",
+    "file": "media/images/aa3e2720-57dc-4f8c-adda-41fbe1704dce_ydw55a",
+    "description": "",
+    "uploaded_on": "2026-06-19T18:56:26.155Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 8,
+  "fields": {
+    "attachment_key": "431735b9-b79b-4345-a05f-483bb9d1236f",
+    "public_id": "5f5ed7cc-f52c-4f13-bf77-78dbab331f22",
+    "file": "media/images/5f5ed7cc-f52c-4f13-bf77-78dbab331f22_zoxdkd",
+    "description": "",
+    "uploaded_on": "2026-06-19T19:12:01.806Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 9,
+  "fields": {
+    "attachment_key": "ae23cf1d-0ca5-43ef-ad24-4d8f8c92d12d",
+    "public_id": "b4d5993e-02f3-4fa8-bcc2-c70340dd8903",
+    "file": "media/images/b4d5993e-02f3-4fa8-bcc2-c70340dd8903_x6qbwm",
+    "description": "",
+    "uploaded_on": "2026-06-19T19:12:25.355Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 10,
+  "fields": {
+    "attachment_key": "aecf05d1-fffc-40ff-beb4-ddea5e2783c2",
+    "public_id": "382a43ae-c248-4a39-8ebc-a76e0e3e7b59",
+    "file": "media/images/382a43ae-c248-4a39-8ebc-a76e0e3e7b59_fifvdk",
+    "description": "",
+    "uploaded_on": "2026-06-19T19:13:07.438Z"
+  }
+},
+{
+  "model": "uploader.image",
+  "pk": 11,
+  "fields": {
+    "attachment_key": "aa135361-32bd-465c-835e-020f0e182c12",
+    "public_id": "b8d6732a-42c2-4f07-8a04-94e0e48e8d6b",
+    "file": "media/images/b8d6732a-42c2-4f07-8a04-94e0e48e8d6b_bnbihy",
+    "description": "",
+    "uploaded_on": "2026-06-19T19:13:38.257Z"
+  }
+},
+{
+  "model": "core.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$7WWh9s6jMzry2Gbnx30H8d$wIZzPnIKrhbOpBi0Ny25dtOcRoOK+ileRqPtzv+CUQk=",
+    "last_login": "2026-06-19T18:55:14.876Z",
+    "is_superuser": true,
+    "email": "a@a.com",
+    "name": "Superusuário",
+    "is_active": true,
+    "is_staff": true,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "core.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$gDw2xQZgwFkYpidganQBRU$8lNQVIM3rCWmyLCdPM0a3pcSHLmLYRZfhg1/snempV0=",
+    "last_login": null,
+    "is_superuser": true,
+    "email": "marcoandre@gmail.com",
+    "name": "Marco André Lopes Mendes",
+    "is_active": true,
+    "is_staff": true,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "core.categoria",
+  "pk": 1,
+  "fields": {
+    "nome": "Carga Geral"
+  }
+},
+{
+  "model": "core.categoria",
+  "pk": 2,
+  "fields": {
+    "nome": "Graneleira"
+  }
+},
+{
+  "model": "core.categoria",
+  "pk": 3,
+  "fields": {
+    "nome": "Boiadeira"
+  }
+},
+{
+  "model": "core.modelocarroceria",
+  "pk": 1,
+  "fields": {
+    "nome": "Graneleira de Madeira",
+    "valor": "20000.00",
+    "comprimento": "6.50",
+    "largura": "2.40",
+    "altura": "1.50",
+    "descricao": "Indicada para transporte de grãos como soja, milho e trigo. Possui laterais reforçadas que evitam perda de carga.",
+    "descricaoCurta": "Ideal para transporte de grãos.",
+    "imagem": 10,
+    "categoria": 2
+  }
+},
+{
+  "model": "core.modelocarroceria",
+  "pk": 2,
+  "fields": {
+    "nome": "Aberta de Madeira",
+    "valor": "16000.00",
+    "comprimento": "6.00",
+    "largura": "2.40",
+    "altura": "0.80",
+    "descricao": "Carroceria tradicional feita em madeira, sem cobertura superior. Muito utilizada para transporte de cargas gerais, como sacarias, materiais de construção e produtos agrícolas. Possui laterais rebatíveis, facilitando carga e descarga.",
+    "descricaoCurta": "Carroceria aberta e versátil para cargas diversas.",
+    "imagem": 11,
+    "categoria": 1
+  }
+},
+{
+  "model": "core.modelocarroceria",
+  "pk": 3,
+  "fields": {
+    "nome": "Boiadeira de Madeira",
+    "valor": "18000.00",
+    "comprimento": "7.00",
+    "largura": "2.40",
+    "altura": "2.00",
+    "descricao": "Projetada para transporte de animais, principalmente bovinos. Possui grades altas de madeira que garantem ventilação e segurança durante o transporte.",
+    "descricaoCurta": "Carroceria com grades para transporte de animais.",
+    "imagem": 8,
+    "categoria": 3
+  }
+},
+{
+  "model": "core.modelocarroceria",
+  "pk": 4,
+  "fields": {
+    "nome": "Carga Seca (Média)",
+    "valor": "26500.00",
+    "comprimento": "7.20",
+    "largura": "2.60",
+    "altura": "0.80",
+    "descricao": "Implemento rodoviário de alta resistência, construído com assoalho de madeira de lei (Roxinho ou Ipê) e guardas laterais de altura média. Possui ferragens em aço carbono com pintura eletrostática, travas de segurança reforçadas e acabamento em verniz nava",
+    "descricaoCurta": "Carroceria de madeira com guardas de 80cm, ideal para sacarias e cargas de médio porte.",
+    "imagem": 9,
+    "categoria": 1
+  }
+}
+]
