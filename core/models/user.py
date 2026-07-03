@@ -9,7 +9,7 @@ from django.contrib.auth.models import (
 )
 from django.db import models
 from django.utils.translation import gettext_lazy as _
-
+from uploader.models import Image
 
 class UserManager(BaseUserManager):
     """Manager for users."""
@@ -44,10 +44,12 @@ class User(AbstractBaseUser, PermissionsMixin):
     name = models.CharField(max_length=255, blank=True, null=True, verbose_name=_('name'), help_text=_('Username'))
     fullName = models.CharField(max_length=255, blank=True, null=True)
     phone = models.CharField(max_length=20, blank=True, null=True)
+    foto = models.ForeignKey(Image, related_name='user_foto', on_delete=models.SET_NULL, null=True, blank=True, default=None)
 
     is_active = models.BooleanField(
         default=True, verbose_name=_('Usuário está ativo'), help_text=_('Indica que este usuário está ativo.')
     )
+    
     is_staff = models.BooleanField(
         default=False,
         verbose_name=_('Usuário é da equipe'),
