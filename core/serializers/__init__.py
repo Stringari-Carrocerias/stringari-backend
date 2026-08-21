@@ -1,3 +1,3 @@
 from .user import UserRegistrationSerializer, UserSerializer
-from .carroceria.modeloCarroceria import ModeloCarroceriaSerializer
+from .carroceria.modeloCarroceria import ModeloCarroceriaListSerializer, ModeloCarroceriaRetrieveSerializer, ModeloCarroceriaCreateUpdateSerializer
 from .carroceria.categoria import CategoriaSerializer
