@@ -10,6 +10,7 @@ from django.contrib.auth.models import (
 from django.db import models
 from django.utils.translation import gettext_lazy as _
 from uploader.models import Image
+from django.core.validators import MinLengthValidator
 
 class UserManager(BaseUserManager):
     """Manager for users."""
@@ -43,7 +44,7 @@ class User(AbstractBaseUser, PermissionsMixin):
     email = models.EmailField(max_length=255, unique=True, verbose_name=_('email'), help_text=_('Email'))
     name = models.CharField(max_length=255, blank=True, null=True, verbose_name=_('name'), help_text=_('Username'))
     fullName = models.CharField(max_length=255, blank=True, null=True)
-    phone = models.CharField(max_length=20, blank=True, null=True)
+    phone = models.CharField(validators=[MinLengthValidator(15)], max_length=15, blank=True, null=True)
     foto = models.ForeignKey(Image, related_name='user_foto', on_delete=models.SET_NULL, null=True, blank=True, default=None)
 
     is_active = models.BooleanField(
