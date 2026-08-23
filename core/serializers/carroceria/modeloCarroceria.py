@@ -36,7 +36,7 @@ class ModeloCarroceriaCreateUpdateSerializer(ModelSerializer):
     categoria_send = SlugRelatedField(
         queryset=Categoria.objects.all(),
         source='categoria',
-        slug_field='attachment_key',
+        slug_field='nome',
         required=False,
         write_only=True
     )
