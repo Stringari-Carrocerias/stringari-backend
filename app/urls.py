@@ -21,6 +21,7 @@ from core.views import (
     ModeloCarroceriaViewSet, 
     UserRegistrationView, 
     UserViewSet,
+    VagaViewSet,
 )
 
 from django.conf import settings
@@ -32,6 +33,7 @@ router = DefaultRouter()
 router.register(r'usuarios', UserViewSet, basename='usuarios')
 router.register(r'modelosCarrocerias', ModeloCarroceriaViewSet, basename='modelosCarrocerias')
 router.register(r'categorias', CategoriaViewSet, basename='categorias')
+router.register(r'vagas', VagaViewSet, basename='vagas')
 
 urlpatterns = [
     path('admin/', admin.site.urls),
