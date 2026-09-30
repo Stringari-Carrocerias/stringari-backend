@@ -7,6 +7,9 @@ from uploader.serializers import ImageSerializer
 
 
 class ModeloCarroceriaListSerializer(ModelSerializer):
+    imagem = ImageSerializer(read_only=True)
+    categoria = CategoriaSerializer(read_only=True)
+
     class Meta:
         model = ModeloCarroceria
         fields = ['id', 'nome', 'valor', 'comprimento', 'largura', 'altura', 'descricaoCurta', 'imagem', 'categoria']

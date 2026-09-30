@@ -5,4 +5,3 @@ from .carroceria.modeloCarroceria import (
     ModeloCarroceriaCreateUpdateSerializer
 )
 from .carroceria.categoria import CategoriaSerializer
-from .vagas import VagaSerializer
