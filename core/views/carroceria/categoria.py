@@ -1,7 +1,11 @@
 from rest_framework.viewsets import ModelViewSet
+
 from core.models.carroceria.categoria import Categoria
 from core.serializers.carroceria.categoria import CategoriaSerializer
+
 
 class CategoriaViewSet(ModelViewSet):
     queryset = Categoria.objects.all()
     serializer_class = CategoriaSerializer
+
+    http_method_names = ['get', 'post', 'delete']
