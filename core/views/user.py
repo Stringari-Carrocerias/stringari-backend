@@ -9,7 +9,7 @@ from rest_framework.response import Response
 from rest_framework.viewsets import ModelViewSet
 
 from core.models import User
-from core.serializers import CostumerCNPJSerializer, CostumerCPFSerializer, UserRegistrationSerializer, UserSerializer
+from core.serializers import CustomerCNPJSerializer, CustomerCPFSerializer, UserRegistrationSerializer, UserSerializer
 
 
 class UserViewSet(ModelViewSet):
@@ -46,7 +46,7 @@ class CostumerCNPJViewSet(CreateAPIView):
     """Endpoint para registro de novos usuários com CNPJ."""
 
     queryset = User.objects.all()
-    serializer_class = CostumerCNPJSerializer
+    serializer_class = CustomerCNPJSerializer
     permission_classes = [AllowAny]
 
 
@@ -54,5 +54,5 @@ class CostumerCPFViewSet(CreateAPIView):
     """Endpoint para registro de novos usuários com CPF."""
 
     queryset = User.objects.all()
-    serializer_class = CostumerCPFSerializer
+    serializer_class = CustomerCPFSerializer
     permission_classes = [AllowAny]

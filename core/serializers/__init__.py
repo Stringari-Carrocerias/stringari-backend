@@ -1,8 +1,8 @@
 from .user import (
     UserSerializer,
     UserRegistrationSerializer,
-    CostumerCNPJSerializer,
-    CostumerCPFSerializer
+    CustomerCNPJSerializer,
+    CustomerCPFSerializer
 )
 from .carroceria.modeloCarroceria import (
     ModeloCarroceriaListSerializer,

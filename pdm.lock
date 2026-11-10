@@ -5,7 +5,7 @@
 groups = ["default", "dev"]
 strategy = ["inherit_metadata"]
 lock_version = "4.5.0"
-content_hash = "sha256:0fdfb97e4d733316fd27a0114065eefc0beee2760256462b95bde0a55e24cf1c"
+content_hash = "sha256:9350a261ad2bdc25ae3b93bbfca79644082f213deaaf07bfa021c1a149cab748"
 
 [[metadata.targets]]
 requires_python = ">=3.10"
@@ -1493,6 +1493,17 @@ dependencies = [
 files = [
     {file = "uvicorn-0.44.0-py3-none-any.whl", hash = "sha256:ce937c99a2cc70279556967274414c087888e8cec9f9c94644dfca11bd3ced89"},
     {file = "uvicorn-0.44.0.tar.gz", hash = "sha256:6c942071b68f07e178264b9152f1f16dfac5da85880c4ce06366a96d70d4f31e"},
+]
+
+[[package]]
+name = "validate-docbr"
+version = "2.0.1"
+requires_python = ">=3.10"
+summary = "Validate brazilian documents."
+groups = ["default"]
+files = [
+    {file = "validate_docbr-2.0.1-py3-none-any.whl", hash = "sha256:ea81a6a5b1bfe63c9374c4bfd54131211e1d6682de6da88af4ee6f1d8a6def48"},
+    {file = "validate_docbr-2.0.1.tar.gz", hash = "sha256:d1e20fd1a283bd9ebfb10e6ad89046693d7dd01fb68906e4119f49074cfa1f6e"},
 ]
 
 [[package]]
