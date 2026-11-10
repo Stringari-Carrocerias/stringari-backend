@@ -26,11 +26,14 @@ class UserSerializer(ModelSerializer):
             'fullName',
             'phone',
             'name',
+            'cnpj',
+            'address',
+            'razao_social',
             'is_active',
             'is_staff',
             'is_superuser',
             'last_login',
-            # 'groups',
+            'groups',
         ]
 
     def validate_fullName(self, value):
@@ -45,6 +48,26 @@ class UserRegistrationSerializer(ModelSerializer):
     class Meta:
         model = User
         fields = ['id', 'email', 'name', 'password']
+
+    def create(self, validated_data):
+        return User.objects.create_user(**validated_data)
+
+
+class CostumerCNPJSerializer(ModelSerializer):
+    password = CharField(write_only=True, min_length=8)
+    class Meta:
+        model = User
+        fields = ['id', 'email', 'fullName', 'phone', 'cnpj', 'address', 'razao_social', 'password']
+
+    def create(self, validated_data):
+        return User.objects.create_user(**validated_data)
+
+
+class CostumerCPFSerializer(ModelSerializer):
+    password = CharField(write_only=True, min_length=8)
+    class Meta:
+        model = User
+        fields = ['id', 'email', 'fullName', 'phone', 'address', 'password']
 
     def create(self, validated_data):
         return User.objects.create_user(**validated_data)

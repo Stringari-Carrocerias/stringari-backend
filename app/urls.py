@@ -1,15 +1,13 @@
+from django.conf import settings
+from django.conf.urls.static import static
 from django.contrib import admin
 from django.urls import include, path
-
-from core.views.carroceria.categoria import CategoriaViewSet
 from drf_spectacular.views import (
     SpectacularAPIView,
     SpectacularRedocView,
     SpectacularSwaggerView,
 )
-
 from rest_framework.routers import DefaultRouter
-
 from rest_framework_simplejwt.views import (
     TokenObtainPairView,
     TokenRefreshView,
@@ -17,14 +15,13 @@ from rest_framework_simplejwt.views import (
 )
 
 from core.views import (
-    CategoriaViewSet, 
-    ModeloCarroceriaViewSet, 
-    UserRegistrationView, 
+    CategoriaViewSet,
+    CostumerCNPJViewSet,
+    CostumerCPFViewSet,
+    ModeloCarroceriaViewSet,
+    UserRegistrationView,
     UserViewSet,
 )
-
-from django.conf import settings
-from django.conf.urls.static import static
 from uploader.router import router as uploader_router
 
 router = DefaultRouter()
@@ -54,6 +51,8 @@ urlpatterns = [
     path('api/token/verify/', TokenVerifyView.as_view(), name='token_verify'),
     # Registro de usuários
     path('api/registro/', UserRegistrationView.as_view(), name='user_registration'),
+    path('api/registro/cnpj/', CostumerCNPJViewSet.as_view(), name='costumer_cnpj_registration'),
+    path('api/registro/cpf/', CostumerCPFViewSet.as_view(), name='costumer_cpf_registration'),
     # API
     path('api/', include(router.urls)),
 ]

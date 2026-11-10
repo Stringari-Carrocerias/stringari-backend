@@ -1,13 +1,15 @@
+from django_filters.rest_framework import DjangoFilterBackend
 from drf_spectacular.utils import extend_schema
 from rest_framework import status
 from rest_framework.decorators import action
+from rest_framework.filters import SearchFilter
 from rest_framework.generics import CreateAPIView
 from rest_framework.permissions import AllowAny, IsAuthenticated
 from rest_framework.response import Response
 from rest_framework.viewsets import ModelViewSet
 
 from core.models import User
-from core.serializers import UserRegistrationSerializer, UserSerializer
+from core.serializers import CostumerCNPJSerializer, CostumerCPFSerializer, UserRegistrationSerializer, UserSerializer
 
 
 class UserViewSet(ModelViewSet):
@@ -27,10 +29,30 @@ class UserViewSet(ModelViewSet):
         serializer = UserSerializer(user)
         return Response(serializer.data, status=status.HTTP_200_OK)
 
+    filter_backends = [DjangoFilterBackend, SearchFilter]
+    filterset_fields = ['groups']
+    search_fields = ['email', 'fullName', 'name', 'cnpj', 'razao_social']
+
 
 class UserRegistrationView(CreateAPIView):
     """Endpoint para registro de novos usuários."""
 
     queryset = User.objects.all()
     serializer_class = UserRegistrationSerializer
+    permission_classes = [AllowAny]
+
+
+class CostumerCNPJViewSet(CreateAPIView):
+    """Endpoint para registro de novos usuários com CNPJ."""
+
+    queryset = User.objects.all()
+    serializer_class = CostumerCNPJSerializer
+    permission_classes = [AllowAny]
+
+
+class CostumerCPFViewSet(CreateAPIView):
+    """Endpoint para registro de novos usuários com CPF."""
+
+    queryset = User.objects.all()
+    serializer_class = CostumerCPFSerializer
     permission_classes = [AllowAny]

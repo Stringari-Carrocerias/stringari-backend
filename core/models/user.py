@@ -7,7 +7,7 @@ from django.contrib.auth.models import (
     BaseUserManager,
     PermissionsMixin,
 )
-from django.core.validators import MinLengthValidator
+from django.core.validators import MinLengthValidator, RegexValidator
 from django.db import models
 from django.utils.translation import gettext_lazy as _
 
@@ -50,6 +50,20 @@ class User(AbstractBaseUser, PermissionsMixin):
     foto = models.ForeignKey(
         Image, related_name='user_foto', on_delete=models.SET_NULL, null=True, blank=True, default=None
     )
+
+    cnpj = models.CharField(
+        max_length=14,
+        validators=[
+            RegexValidator(
+                regex=r'^[0-9]{14}$',
+                message='O CNPJ deve conter 14 números.'
+            )
+        ],
+        blank=True, null=True
+    )
+
+    address = models.CharField(max_length=255, blank=True, null=True)
+    razao_social = models.CharField(max_length=255, blank=True, null=True)
 
     is_active = models.BooleanField(
         default=True, verbose_name=_('Usuário está ativo'), help_text=_('Indica que este usuário está ativo.')
