@@ -63,7 +63,7 @@ class User(AbstractBaseUser, PermissionsMixin):
     )
 
     address = models.CharField(max_length=255, blank=True, null=True)
-    razao_social = models.CharField(max_length=255, blank=True, null=True)
+    legalName = models.CharField(max_length=255, blank=True, null=True)
 
     is_active = models.BooleanField(
         default=True, verbose_name=_('Usuário está ativo'), help_text=_('Indica que este usuário está ativo.')

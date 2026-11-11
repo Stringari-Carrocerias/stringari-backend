@@ -31,7 +31,7 @@ class UserSerializer(ModelSerializer):
             'name',
             'cnpj',
             'address',
-            'razao_social',
+            'legalName',
             'is_active',
             'is_staff',
             'is_superuser',
@@ -61,7 +61,7 @@ class CustomerCNPJSerializer(ModelSerializer):
 
     class Meta:
         model = User
-        fields = ['id', 'email', 'fullName', 'phone', 'cnpj', 'address', 'razao_social', 'password']
+        fields = ['id', 'email', 'fullName', 'phone', 'cnpj', 'address', 'legalName', 'password']
 
         extra_kwargs = {
             'cnpj': {
@@ -81,10 +81,10 @@ class CustomerCNPJSerializer(ModelSerializer):
 
     def validate_fullName(self, value):
         if not value or not value.strip():
-            raise ValidationError('Nome completo inválido. Preencha os campos corretamente.')
+            raise ValidationError('Nome da empresa inválido. Preencha os campos corretamente.')
 
         if any(char.isdigit() for char in value):
-            raise ValidationError('O nome completo não pode conter números.')
+            raise ValidationError('O nome da empresa não pode conter números.')
         return value
 
     def validate_phone(self, phone):
@@ -110,9 +110,9 @@ class CustomerCNPJSerializer(ModelSerializer):
 
         return value
 
-    def validate_razao_social(self, value):
+    def validate_legalName(self, value):
         if not value or not value.strip():
-            raise ValidationError('Razão social inválida. Preencha os campos corretamente.')
+            raise ValidationError('Nome fantasia inválido. Preencha os campos corretamente.')
         return value
 
 

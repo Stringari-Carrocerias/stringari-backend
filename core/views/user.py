@@ -35,7 +35,7 @@ class UserViewSet(ModelViewSet):
 
     filter_backends = [DjangoFilterBackend, SearchFilter]
     filterset_fields = ['groups']
-    search_fields = ['email', 'fullName', 'name', 'cnpj', 'razao_social']
+    search_fields = ['email', 'fullName', 'name', 'cnpj', 'legalName']
 
 
 class UserRegistrationView(CreateAPIView):
