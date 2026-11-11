@@ -4,7 +4,7 @@ from rest_framework import status
 from rest_framework.decorators import action
 from rest_framework.filters import SearchFilter
 from rest_framework.generics import CreateAPIView
-from rest_framework.permissions import AllowAny, IsAuthenticated
+from rest_framework.permissions import AllowAny, IsAdminUser, IsAuthenticated
 from rest_framework.response import Response
 from rest_framework.viewsets import ModelViewSet
 
@@ -15,7 +15,6 @@ from core.serializers import CustomerCNPJSerializer, CustomerCPFSerializer, User
 class UserViewSet(ModelViewSet):
     queryset = User.objects.all().order_by('id')
     serializer_class = UserSerializer
-    permission_classes = [IsAuthenticated]
 
     @extend_schema(
         summary="Dados do usuário autenticado",
@@ -28,6 +27,11 @@ class UserViewSet(ModelViewSet):
         user = request.user
         serializer = UserSerializer(user)
         return Response(serializer.data, status=status.HTTP_200_OK)
+
+    def get_permissions(self):
+        if self.action == 'me':
+            return [IsAuthenticated()]
+        return [IsAdminUser()]
 
     filter_backends = [DjangoFilterBackend, SearchFilter]
     filterset_fields = ['groups']

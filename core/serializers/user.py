@@ -63,6 +63,19 @@ class CustomerCNPJSerializer(ModelSerializer):
         model = User
         fields = ['id', 'email', 'fullName', 'phone', 'cnpj', 'address', 'razao_social', 'password']
 
+        extra_kwargs = {
+            'cnpj': {
+                'required': True,
+                'allow_null': False,
+                'allow_blank': False,
+                'error_messages': {
+                    'required': 'CNPJ inválido. Preencha os campos corretamente.',
+                    'null': 'CNPJ inválido. Preencha os campos corretamente.',
+                    'blank': 'CNPJ inválido. Preencha os campos corretamente.',
+                },
+            },
+        }
+
     def create(self, validated_data):
         return User.objects.create_user(**validated_data)
 
