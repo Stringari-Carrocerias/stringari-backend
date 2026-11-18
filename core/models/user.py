@@ -1,6 +1,7 @@
 """
 Database models.
 """
+import os
 
 from django.contrib.auth.models import (
     AbstractBaseUser,
@@ -12,6 +13,8 @@ from django.db import models
 from django.utils.translation import gettext_lazy as _
 
 from uploader.models import Image
+
+MODE = os.getenv('MODE')
 
 
 class UserManager(BaseUserManager):
@@ -40,10 +43,14 @@ class UserManager(BaseUserManager):
         return user
 
 
-def get_default_foto():
-    return Image.objects.get(
-        public_id="d90c76e1-5f44-4986-a93f-4a022f214a62"
-    ).pk
+if MODE == 'DEVELOPMENT':
+    def get_default_foto():
+        return 13
+else:
+    def get_default_foto():
+        return Image.objects.get(
+            public_id="d90c76e1-5f44-4986-a93f-4a022f214a62"
+        ).pk
 
 
 class User(AbstractBaseUser, PermissionsMixin):
