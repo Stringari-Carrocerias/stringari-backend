@@ -40,6 +40,12 @@ class UserManager(BaseUserManager):
         return user
 
 
+def get_default_foto():
+    return Image.objects.get(
+        public_id="d90c76e1-5f44-4986-a93f-4a022f214a62"
+    ).pk
+
+
 class User(AbstractBaseUser, PermissionsMixin):
     """User model in the system."""
 
@@ -48,7 +54,7 @@ class User(AbstractBaseUser, PermissionsMixin):
     fullName = models.CharField(max_length=255, blank=True, null=True)
     phone = models.CharField(validators=[MinLengthValidator(15)], max_length=15, blank=True, null=True)
     foto = models.ForeignKey(
-        Image, related_name='user_foto', on_delete=models.SET_NULL, null=True, blank=True, default=13,
+        Image, related_name='user_foto', on_delete=models.SET_NULL, null=True, blank=True, default=get_default_foto,
     )
 
     cnpj = models.CharField(
