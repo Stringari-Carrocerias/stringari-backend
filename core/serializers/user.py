@@ -1,5 +1,6 @@
 import re
 
+from django.contrib.auth.models import Group
 from rest_framework.serializers import CharField, ModelSerializer, SlugRelatedField, ValidationError
 from validate_docbr import CNPJ
 
@@ -77,7 +78,12 @@ class CustomerCNPJSerializer(ModelSerializer):
         }
 
     def create(self, validated_data):
-        return User.objects.create_user(**validated_data)
+        password = validated_data.pop('password')
+        user = User.objects.create_user(password=password, **validated_data)
+        group = Group.objects.get(name='Clientes')
+        user.groups.add(group)
+
+        return user
 
     def validate_fullName(self, value):
         if not value or not value.strip():
@@ -124,7 +130,12 @@ class CustomerCPFSerializer(ModelSerializer):
         fields = ['id', 'email', 'fullName', 'phone', 'address', 'password']
 
     def create(self, validated_data):
-        return User.objects.create_user(**validated_data)
+        password = validated_data.pop('password')
+        user = User.objects.create_user(password=password, **validated_data)
+        group = Group.objects.get(name='Clientes')
+        user.groups.add(group)
+
+        return user
 
     def validate_fullName(self, value):
         if not value or not value.strip():

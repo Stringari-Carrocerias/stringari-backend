@@ -48,7 +48,7 @@ class User(AbstractBaseUser, PermissionsMixin):
     fullName = models.CharField(max_length=255, blank=True, null=True)
     phone = models.CharField(validators=[MinLengthValidator(15)], max_length=15, blank=True, null=True)
     foto = models.ForeignKey(
-        Image, related_name='user_foto', on_delete=models.SET_NULL, null=True, blank=True, default=None
+        Image, related_name='user_foto', on_delete=models.SET_NULL, null=True, blank=True, default=13,
     )
 
     cnpj = models.CharField(
